@@ -1,0 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+target/
+*.class
+*.jar
+
+# React
+node_modules/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+application-local.yml
+
+# Logs
+*.log

@@ -1,0 +1,33 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: localhost          # only hostname under instance
+  client:                       # ? client directly under eureka
+    register-with-eureka: false
+    fetch-registry: false
+  server:                       # ? server directly under eureka
+    wait-time-in-ms-when-sync-empty: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: Eureka Server
+    version: 1.0.0
+    description: Service Registry for all microservices
