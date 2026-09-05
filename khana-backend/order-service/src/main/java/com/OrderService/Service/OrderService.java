@@ -87,7 +87,7 @@ public class OrderService {
             HashMap<String, Object> responseData = new HashMap<>();
 
             if (paymentResponse.get("status").equals("SERVICE_UNAVAILABLE")) {
-                log.error("Payment service is unavailable. Order creation failed.");
+                log.error("Payment service is unavailable");
                 responseData.put("error", "Payment service is temporarily unavailable. Please try again later.");
                 return ResponseEntity.status(503).body(responseData);
             }
