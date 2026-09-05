@@ -1,0 +1,387 @@
+body {
+   
+}
+.design{
+  padding-right: 20px;
+  width: 300px;
+}
+ 
+ 
+.restimage{
+  border-radius: 200%;
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px;
+   cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+.restname{
+  padding: 20px;
+  
+}
+.hotel{
+  display: flex;
+  flex-direction: row;
+  padding-left: 450px;
+  padding-top: 100px;
+  
+}
+.navbar{
+    padding: 10px 0;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Stick it to the top */
+    width: 100%; /* Make it full-width */
+    z-index: 100; 
+}
+.navbar-brand{
+     font-size: xx-large;
+}
+.nav-item{
+    margin-left: 70px;
+}
+.form-control{
+    width: 500px;
+   
+}
+.placeholder-black::placeholder {
+    color: black;
+  }
+.iconloc{
+    margin-right: 3px;
+
+}
+ .dropdown-toggle{
+    font-size: larger;
+ }
+/* In your CSS stylesheet */
+ 
+.search-button:hover {
+    background-color: green;
+    color: black;
+  }
+  .items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: 100px;
+      
+  }
+  .item{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+     padding-bottom: 20px;
+     margin-bottom: 5px;
+     box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+     
+  }
+  .item-details{
+    width: 150px; /* Set a fixed width for the text portion */
+    text-align: right;
+     margin-right:280px
+  }
+  .wrapper{
+    height: 50px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cc2d2d;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  background-color: rgb(47, 190, 47);
+  color: whitesmoke;
+  }
+  .wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+  .wrapper span.num{
+    font-size: 20px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+  .button {
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.2s, background-color 0.2s;
+    
+}
+
+.button:hover {
+    background-color:black;
+    transform: scale(1.1);
+}
+ 
+.cart-info{
+   
+  position: fixed;
+  bottom: 0;
+   width:580px;
+  display: flex;
+   margin-left: 600px;
+   justify-content: center;
+  background-color: rgb(47, 190, 47);
+  color: whitesmoke ;
+   margin-top: 10px;
+    padding-top: 5px;
+    
+}
+.orderpage{
+  background-color: red;
+}
+.cartdetails{
+  display: flex;
+  flex-direction: row;
+  width:500px
+}
+.cartdetails{
+  display: flex;
+  flex-direction: column;
+  width: 200px; /* Set a fixed width for the text portion */
+  text-align: left;
+   margin-right:200px
+}
+ .priceoverview{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+ }
+ .pricedetails{
+  width: 400px;
+  text-align: left;
+  margin-right: 50px;
+ }
+ /* OrderAccepted.css */
+/* OrderAccepted.css */
+.order-accepted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+  background-color: hsl(0, 0%, 96%);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.order-accepted h1 {
+  font-size: 2rem;
+  color: #4CAF50; /* Green color for success */
+}
+
+.order-accepted h5 {
+  font-size: 1.2rem;
+}
+.orderpage{
+  background-color: rgb(47, 190, 47);
+  
+  width: fit-content;
+}
+.orderpage:hover{
+  background-color: whitesmoke;
+   
+} 
+ 
+
+
+ 
+ .homedit{
+  margin-top: 10px;
+ }
+
+ 
+
+
+/* YourStylesheet.css */
+
+ul {
+  list-style-type: none; /* Remove bullet points for all unordered lists */
+}
+
+ul ul {
+  list-style-type: none; /* Remove bullet points for nested unordered lists */
+  padding-left: 0; /* Remove left padding for nested unordered lists */
+}
+
+
+.vamshi {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.vk {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vk a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.vk a:hover {
+  background-color: #eee;
+}
+@media (max-width: 768px) {
+  .hotel {
+    padding-top: 300px;
+    padding-left: 0;
+  }
+
+  .design {
+    width: 100%; /* Make the item take full width on smaller screens */
+  }
+  .items{
+     margin-left: 100px;
+  }
+  .cart-info{
+    margin-left: 100px;
+  }
+}
+.login{
+  margin-left: 700px;
+  margin-top: 200px;
+  font-family: monospace;
+  font-size:x-large;
+}
+
+.butt{
+  margin-top: 15px;
+  position: relative;
+  left:200px;
+  background-color:black;
+  color: whitesmoke;
+  padding: 10px;
+  width: max-content;
+  border-radius: 15px;
+}
+.butt:hover{
+  
+}
+.del{
+  position: relative;
+  left:140px;
+  top:40px;
+    
+}
+.boygads{
+  width:100%;
+  width: 350px;
+  
+}
+.login{
+  display: flex;
+flex-direction: row;
+ justify-content: center;
+    width: 700px;
+ 
+}
+.roadd{
+  width:100%;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+.del, .auth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    /* For debugging purposes */
+}
+.del img, .auth img {
+  max-width: 100%; /* Responsive images */
+  height: auto;
+}
+
+ 
+.lund {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px; /* Optional padding */
+}
+ 
+input[type="radio"]{
+  display: none;
+}
+
+.toggle-container{
+ direction: flex;
+ position: absolute;
+ right: 350px;
+ top:200px;
+ 
+}
+
+.dhoni{
+  direction: flex;
+  position: absolute;
+  left:200px;
+  justify-content: center;
+  flex-direction: column;
+  
+ 
+
+   
+}
+
+.toggle-button {
+  padding: 13px 20px;
+  margin: 0 10px;
+  background-color: white;
+  color: black;
+  width:90px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button.active {
+  background-color: black;
+  color: white;
+}
+
+
+.prev{
+  padding-top: 39px;
+}
+ 
+
+@media (min-width: 768px) {
+  .lund {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .del, .auth {
+    flex-direction: row;
+  }
+}
